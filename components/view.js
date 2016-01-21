@@ -1,18 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Model from './model.js'
+import Maze from './maze.js'
+
 export class View {
+  constructor() {
+    this.root = document.createElement('div')
+    document.body.appendChild(this.root)
+  }
+
   render(Model) {
-    console.log('rendering model')
+
+    // return <div className='amazed'><Maze cells={this.state.cells} /></div>
+
+    ReactDOM.render(<Maze model={Model}/>, this.root)
+
   }
 }
-
-// const main = () => {
-//   const app = document.createElement('div')
-//
-//   document.body.appendChild(app)
-//
-//   ReactDOM.render(<App/>, app)
-// }
-//
-// main()

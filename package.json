@@ -38,5 +38,12 @@
       "react-addons-pure-render-mixin": "npm:react-addons-pure-render-mixin@^0.14.6",
       "react-addons-test-utils": "npm:react-addons-test-utils@^0.14.6"
     }
+  },
+  "devDependencies": {
+    "koa": "^1.1.2",
+    "koa-better-body": "^1.0.17",
+    "koa-knex": "^0.7.5",
+    "koa-resource-router": "^0.4.0",
+    "path": "^0.12.7"
   }
 }

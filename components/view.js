@@ -11,15 +11,11 @@ export class View {
   }
 
   render(Model) {
-
-    console.log('Maze', Maze, Model)
-
     const App = (
       <div className='amazed'>
-        <Maze cells={Model.cells} />
+        <Maze cells={Model.cells} runnerIndex={Model.index}/>
       </div>
     )
-
     ReactDOM.render(App, this.root)
   }
 }

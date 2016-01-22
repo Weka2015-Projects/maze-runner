@@ -3,7 +3,9 @@ import React, { Component } from 'react'
 export default class Cell extends Component{
   render() {
     const styles = {}
-
+    if(this.props.runner) {
+      styles['background-color'] = 'red'
+    }
     if(this.props.open.match(/r/)) {
       styles.borderRight = 'none'
     }

@@ -2,8 +2,6 @@
 
 import { Router } from './components/router'
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
   let router = new Router()
   router.listen()

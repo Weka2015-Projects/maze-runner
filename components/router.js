@@ -8,13 +8,12 @@ export class Router {
   }
 
   listen() {
-    // let that = this
-    console.log('listening to router')
-    //
-    // $( () => {
-    //   $(document).on('keydown', (event) => {
-    //   that.controller.handleKeydown(event)
-    //   })
-    // })
+    let that = this
+
+    $( () => {
+      $(document).on('keydown', (event) => {
+      that.controller.handleKeyDown(event)
+      })
+    })
   }
 }

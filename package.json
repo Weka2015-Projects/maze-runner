@@ -45,5 +45,8 @@
     "koa-knex": "^0.7.5",
     "koa-resource-router": "^0.4.0",
     "path": "^0.12.7"
+  },
+  "dependencies": {
+    "pg": "^4.4.3"
   }
 }

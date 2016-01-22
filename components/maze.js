@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Cell from './cell.js'
+import Cell from './cell'
 
-export class Maze extends Component {
+export default class Maze extends Component {
 
   render() {
-      const cells = this.props.model.cells.map((cell, idx) => {
+      const cells = this.props.cells.map((cell, idx) => {
         return <Cell key={idx} number={idx + 1} open={cell.open}/>
       })
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Model from './model.js'
-import Maze from './maze.js'
+import Model from './model'
+import Maze from './maze'
 
 export class View {
   constructor() {
@@ -12,9 +12,14 @@ export class View {
 
   render(Model) {
 
-    // return <div className='amazed'><Maze cells={this.state.cells} /></div>
+    console.log('Maze', Maze, Model)
 
-    ReactDOM.render(<Maze model={Model}/>, this.root)
+    const App = (
+      <div className='amazed'>
+        <Maze cells={Model.cells} />
+      </div>
+    )
 
+    ReactDOM.render(App, this.root)
   }
 }

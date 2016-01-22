@@ -1,0 +1,27 @@
+body {
+  background-color: hsl(210, 100%, 95%);
+}
+
+.maze {
+  background-color: hsl(0, 0%, 100%);
+  border-top: 1px solid hsl(210, 100%, 35%);
+  border-left: 1px solid hsl(210, 100%, 35%);
+  height: 600px;
+  margin: 40px auto;
+  text-align: center;
+  width: 600px;
+}
+
+.cell {
+  background-color: #ffffff;
+  border-right: 1px solid hsl(210, 100%, 35%);
+  border-bottom: 1px solid hsl(210, 100%, 35%);
+  box-sizing: border-box;
+  color: hsl(210, 100%, 35%);
+  float: left;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}

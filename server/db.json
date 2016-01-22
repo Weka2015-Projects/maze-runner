@@ -1,0 +1,48 @@
+{
+  "scores": [
+    {
+      "name": "piet",
+      "score": "100"
+    },
+    {
+      "name": "jason",
+      "score": "100000000"
+    },
+    {
+      "name": "irene",
+      "score": "0"
+    },
+    {
+      "name": "cats",
+      "id": "662e458e-4835-4ca8-8426-4222a8ff1197"
+    },
+    {
+      "name": "aaron",
+      "id": "06c94baf-ae2e-4f88-9a73-ebb93aaf3245"
+    },
+    {
+      "name": "aaron",
+      "id": "a3d531da-2b68-46f1-ae71-a22e6e388490"
+    },
+    {
+      "name": "fish",
+      "id": "3da17b8b-0115-441a-b880-f96a661bb38d"
+    },
+    {
+      "name": "fish",
+      "id": "04d7f20a-757f-4fe5-a1e5-8f91041cc9a0"
+    },
+    {
+      "name": "dean",
+      "id": "25844d50-9908-4c0e-8c9d-14ae741a968c"
+    },
+    {
+      "name": "dean",
+      "id": "0aaa0270-8426-4dea-84df-8d5904fc3a91"
+    },
+    {
+      "name": "sam",
+      "id": "da636a3f-6a68-4e34-9dfd-7241e193fb61"
+    }
+  ]
+}

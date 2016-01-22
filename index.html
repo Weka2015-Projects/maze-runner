@@ -11,14 +11,37 @@
 
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
+    <!-- <script src="/components/main.js"></script> -->
     <script>
-      System.import('components/boot.js')
+      System.import('components/main.js')
     </script>
 
     <link rel="stylesheet" href="./apps.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>Dylan O'brien</h1>
+    <h1 class="sitetitle">Dylan O'brien</h1>
+    <form id="new-game">
+      <input type="text" name="name"></input>
+      <input type="submit" value="submit"></input>
+    </form>
+    <table id="sitetable" style="width:30%">
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Score</th>
+      </tr>
+      <tr>
+        <td>Irene</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Katie</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Sam</td>
+        <td>6</td>
+      </tr>
+    </table>
   </body>
 </html>

@@ -1,3 +1,24 @@
+.sitetitle {
+  color: lightblue;
+}
+
 h1 {
-  background-color: red;
+  text-align: center;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  color: #6C7A89;
 }
